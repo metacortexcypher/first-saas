@@ -7,7 +7,6 @@ const NavBar = () => {
       <nav className="nav">
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/log">👉Console.log(Progress)</Link></li>
         </ul>
       </nav>
     </header>
