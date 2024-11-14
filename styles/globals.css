@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 80px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #new {
+    max-width: 700px;
+  }
+  
+  span {
+    color: orangered;
+  }
+  
+  #colored {
+    color: #007bff;
+  }
+  
+  .alert-box {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-width: 90%;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 60px 10px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  
+    #new {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .alert-box {
+      width: auto;
+      padding: 15px;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 100px 10px 60px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      width: 100%;
+    }
+  
+    .hero-section {
+      padding: 10px;
+    }
+  
+    .btn {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  
+    .alert-box {
+      max-width: 100%;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
